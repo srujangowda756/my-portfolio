@@ -79,7 +79,6 @@ function App() {
     };
     backProfileBtn?.addEventListener('click', backHandler);
 
-    // opening animation
     setTimeout(() => {
       coverRight?.classList.add('turn');
     }, 2100);
@@ -476,6 +475,7 @@ function App() {
                               <input name="user_name" type="text" className="field" placeholder="Full Name" required />
                               <input name="user_email" type="email" className="field" placeholder="Email Address" required />
                               <textarea name="message" cols="30" rows="10" className="field" placeholder="Your Message" required />
+                              <p>My mail: srujangowda756@gmail.com</p>
                               <input type="submit" value={sending ? 'Sending...' : 'Send Message'} className="btn" disabled={sending} />
                             </form>
                           </div>
