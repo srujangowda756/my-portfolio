@@ -361,7 +361,7 @@ function App() {
 
                           <div className="skills-box">
                             <div className="skills-content">
-                              <h3>SKills and technology</h3>
+                              <h3>Front-End</h3>
                               <div className="content">
                                 <span>
                                   <i className="bx bxl-html5" /> HTML
@@ -381,15 +381,30 @@ function App() {
                                 <span>
                                   <i className="bx bxl-tailwind-css"/>Tailwind
                                 </span>
+                              </div>
+                            </div>
+
+                            <div className="skills-content">
+                              <h3>Back-End</h3>
+                              <div className="content">
                                 <span>
                                   <i className="bx bxl-python" />Python
                                 </span>
-                                 <span>
+                                <span>
+                                  <i className="bx bxl-java" />Java
+                                </span>
+                                <span>
                                   <i className="bx bxl-nodejs" />Node JS
                                 </span>
                                 <span>
                                   <i className="bx bxl" />C++
                                 </span>
+                              </div>
+                            </div>
+
+                            <div className="skills-content">
+                              <h3>Database</h3>
+                              <div className="content">
                                 <span>
                                   <i className="bx bxl-data" />Sql
                                 </span>
@@ -398,6 +413,8 @@ function App() {
                                 </span>
                               </div>
                             </div>
+                          </div>
+
                           <span className="number-page">4</span>
 
                           <span className="nextprev-btn back" data-page="turn-2" aria-label="Previous page">
