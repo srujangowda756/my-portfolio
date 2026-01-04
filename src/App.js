@@ -173,12 +173,9 @@ function App() {
 
   return (
     <div className="App">
-      <button className="nav-btn nav-left" onClick={() => goBackRef()} aria-label="Previous page">‹</button>
-      <button className="nav-btn nav-right" onClick={() => goForwardRef()} aria-label="Next page">›</button>
       <div className="wrapper">
         <div className="cover cover-left" />
         <div className="cover cover-right" />
-
         <div className="book">
           <div className="book-page page-left">
             <div className="profile-page">
@@ -221,7 +218,6 @@ function App() {
           <div className="book-page page-right turn" id="turn-1">
             <div className="page-front">
               <h1 className="title">Work Experience</h1>
-
               <div className="workeduc-box">
                 <div className="workeduc-content">
                   <span className="year">
